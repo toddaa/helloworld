@@ -6,6 +6,6 @@ class SayHello
 {
     public static function world()
     {
-        return 'Hello World, Composer!\nYou Rock!\n';
+        return 'Hello World, Composer!\r\nCRON worked!!';
     }
 }
