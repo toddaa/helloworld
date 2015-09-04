@@ -14,5 +14,10 @@
         "psr-0": {
             "HelloWorld": "src/"
         }
+    },
+    "scripts":{
+        "post-package-install":[
+            "ln -s vendor/aaron/helloworld/public_html/ public_html"
+        ]
     }
 }
