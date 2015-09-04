@@ -16,8 +16,8 @@
         }
     },
     "scripts":{
-        "post-package-install":[
-            "ln -s vendor/aaron/helloworld/public_html/ public_html"
+        "post-package-update":[
+            "echo test1"
         ]
     }
 }
